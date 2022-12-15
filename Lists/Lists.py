@@ -149,3 +149,16 @@
 
 # L1.extend(L2)
 # print(L1)
+
+# s = [1,2,3,4,5]
+# max = s[0]
+
+# for x in s:
+#   if max<x:
+#     max=x
+# print (max)
+# while True:
+#   if input =
+list = [1,2]
+
+print((list)+"+1")

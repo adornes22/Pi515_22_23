@@ -12,7 +12,11 @@ class Player:
     self.name = name
     self.score = 0
 
-
+class plant:
+  def __init__(self):
+    self.name='Wheat'
+    self.score=10
+    
 # Program Start
 # Player enters name
 playerName = input('Please enter your name\n')
@@ -27,8 +31,11 @@ userIn = ''
 # Game loop
 while userIn != 'quit' and userIn != 'q':
   # Print player info at top of screen
-  print(p1)
+  print(p1.name)
+  print('Score: ', p1.score)
 
+  plant = plant()
+  
   # Print plant information
   print('Plant: ')
   print(' |/')
@@ -49,7 +56,7 @@ while userIn != 'quit' and userIn != 'q':
   # Execute command on user input
   userIn = input('Input: ')
   if userIn == 'harvest' or userIn == 'h':
-    p1.score += 10
+    p1.score += plant.score
   elif userIn == 'spray' or userIn == 's':
     pass
   else:

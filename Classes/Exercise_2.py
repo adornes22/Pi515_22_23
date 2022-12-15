@@ -11,3 +11,13 @@
 # 6. Run your instance method printList()
 
 from Exercise_1 import contact
+
+class contact:
+
+  isBlocked = False
+
+  def__init__(self,first,last,num):
+    self.firstName = first
+    self.lastName = last
+    slef.phone = num
+

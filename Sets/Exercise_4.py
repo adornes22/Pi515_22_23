@@ -3,4 +3,6 @@
 drinks = {'Water', 'Soda'}
 foods = {'Pizza', 'Hot Dog', 'PB&J', 'Salad'}
 
-print('Combined menu: ')
+drinks.union(foods)
+
+print('Combined menu: ', drinks.union(foods))

@@ -2,15 +2,16 @@
 #
 #   What's going on here???
 #
+num = 5
 
 def printSquare():
     def square(num):
-        num = 5
         return num ** 2
 
-    myNumber = 10
+    
     print(square(num))
 
 printSquare()
 
+myNumber = 10
 print(myNumber)

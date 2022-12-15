@@ -2,8 +2,8 @@
 
 menu = {'Pizza', 'Hot Dog', 'PB&J', 'Salad', 'Water', 'Soda'}
 
-print('Order Available: ')
+print('Order Available: ', 'Pizza' in (menu))
 
 # Make an order that isn't available
 
-print('Order not Available: ')
+print('Order not Available: ' 'Cake' in (menu))

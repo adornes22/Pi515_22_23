@@ -3,4 +3,7 @@
 
 menu = {'Pizza', 'Hot Dog', 'PB&J', 'Salad', 'Water', 'Soda'}
 
+menu.remove('Hot Dog')
+menu.add('Burgers')
+
 print(menu)
